@@ -1,0 +1,30 @@
+{
+    "name": "sfire-framework/sfire-logging",
+    "description": "Easy to use interface for logging data to file system.",
+    "homepage": "https://sfire.io",
+    "keywords": [
+        "sfire",
+        "framework",
+        "logging",
+        "log"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Kris Kuiper",
+            "email": "kris@sfire.io"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "sfire-framework/sfire-filecontrol": "1.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "sFire\\Logging\\": "./src/"
+        }
+    }
+}
