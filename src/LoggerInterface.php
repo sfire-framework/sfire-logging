@@ -19,9 +19,9 @@ namespace sFire\Logging;
 interface LoggerInterface {
 
 
-	/**
-	 * Write data to file
-	 * @param string $data
-	 */
-	public function write(string $data);
+    /**
+     * Write data to file
+     * @param string $data
+     */
+    public function write(string $data);
 }

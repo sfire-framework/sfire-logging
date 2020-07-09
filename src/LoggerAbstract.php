@@ -17,11 +17,11 @@ namespace sFire\Logging;
  * @package sFire\Logging
  */
 abstract class LoggerAbstract implements LoggerInterface {
-	
 
-	/**
-	 * Write data to file
-	 * @param string $data
-	 */
-	abstract public function write(string $data);
+
+    /**
+     * Write data to file
+     * @param string $data
+     */
+    abstract public function write(string $data);
 }
